@@ -14,9 +14,18 @@ To write a Python program that accepts a string and removes the character at a s
 7. After the loop, return the modified string `a`.
 8. Print the final result.
 
-## 💻 Program
-Add Code Here
+## 💻 Program:
+def remove(a,n):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
+a=input()
+n=int(input())
+remove(a,n)
 
-## Output
+## Output:
+<img width="685" height="142" alt="WhatsApp Image 2026-05-28 at 8 45 01 PM" src="https://github.com/user-attachments/assets/f45d83b6-a8b2-406f-b94d-36ddcf00dbcb" />
 
-## Result
+
+## Result:
+thus the program has verified
